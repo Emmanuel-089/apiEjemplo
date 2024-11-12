@@ -35,7 +35,8 @@ class CategoryController extends Controller
     
     public function update(PutRequest $request, Category $category)
     {
-        $category->update($request->validate);
+        $category->update($request->validated());
+
         return response()->json($category);
     }
 

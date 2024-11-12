@@ -1,6 +1,5 @@
 <template lang="">
-    <div>
-        <h1>Principal</h1>
+    <div class="container mx-auto">
         <router-view></router-view>
     </div>
 </template>

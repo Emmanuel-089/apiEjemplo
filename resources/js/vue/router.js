@@ -11,7 +11,7 @@ const routes=[
     },
     {
         name:'save',
-        path:'/save',
+        path:'/vue/save/:slug?',
         component:Save,
     }
 ]

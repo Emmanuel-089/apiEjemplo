@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+title {
+    @apply text-3xl mb-2;
+}
+h1 {
+    @apply text-3xl mb-2;
+}
+
+input,
+select,
+textarea,
+.o-input__wrapper,
+.o-ctrl-sel {
+    @apply w-full block;
+}
